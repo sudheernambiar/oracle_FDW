@@ -248,3 +248,5 @@ type \q to exit
 #In PGADMIN in servers right click create > server now add 
 
 ![alt text](create_server.png)
+
+#In connection tab, give further details, host > your IP of the postgress server
