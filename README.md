@@ -250,3 +250,34 @@ type \q to exit
 ![alt text](create_server.png)
 
 #In connection tab, give further details, host > your IP of the postgress server
+![alt text](create_server2.png)
+#Save the connection here you can give the earlier password we set, 
+#Select the query tool as follows, 
+![alt text](create_server3.png)
+#Put the command as follows, 
+```
+$CREATE EXTENSION oracle_fdw;
+```
+#Select all and execute by clicking the play button
+![alt text](create_server4.png)
+
+### To check whether the installation is correct or not, please refresh on foreign data wrappers
+![alt text](create_server5.png)
+
+#Execute following, the one which I mention in display is just for understanding, 
+![alt text](create_server6.png)
+
+#Create user mapping 
+![alt text](create_server7.png)
+
+#Create a new schema,
+![alt text](create_server8.png)
+
+#Execute the third command, 
+![alt text](create_server9.png)
+
+#Final step, you must verify the foreign tables after refreshing.
+![alt text](create_server10.png)
+
+## Result
+Once completed you are good to go, your data from foreign server will be replicated to local machine.
