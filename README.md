@@ -244,6 +244,7 @@ postgres=# \q
 type \q to exit
 ```
 #Now go to the pgadmin application Windows(which should be installed earlier)
+
 #In PGADMIN in servers right click create > server now add 
 
 ![alt text](create_server.png)
